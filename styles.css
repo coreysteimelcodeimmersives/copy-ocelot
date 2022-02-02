@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Rbno2";
+    font-display: auto;
+    font-weight: 700;
+    src: url(font/rene-bieder-rbno2.1a-bold.otf) format('OpenType');
+}
+
+@font-face {
+    font-family: "Rbno2";
+    font-display: auto;
+    font-weight: 500;
+    src: url(font/RBNo2.1a-Medium.otf) format('OpenType');
+}
+
+@font-face {
+    font-family: "Rbno2";
+    font-display: auto;
+    font-weight: 300;
+    src: url(font/rbno2.1a-light.otf) format('OpenType');
+}
+
+#corey{
+    border-radius: 50%;
+}
+
+#act{
+    font-family: 'Rbno2', sans-serif;
+    font-weight: 700;
+    letter-spacing: normal;
+    color: #2d2d2d;
+    text-decoration: none;
+    display: inline-block;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    word-break: break-word;
+    width:calc(100vw);
+    font-size: 70px;
+    background-color: olive;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:normal;
+}
+
+#corey-container{
+    font-family: 'Rbno2', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: black;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.corey-stuff{
+    width: min-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "med arc cod";
+    justify-items: center;
+}
+
+#med{
+    margin: 20px;
+    grid-area: med;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+#arc{
+    margin: 20px;
+    grid-area: arc;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+#cod{
+    margin: 20px;
+    grid-area: cod;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+}
